@@ -1,8 +1,17 @@
 # Gemma Media Study
 
+[![Latest release](https://img.shields.io/github/v/release/johunsang/gemma-media-study?sort=semver&label=release)](https://github.com/johunsang/gemma-media-study/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/johunsang/gemma-media-study/total?label=downloads)](https://github.com/johunsang/gemma-media-study/releases)
+[![Platform: Windows](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6?logo=windows)](https://github.com/johunsang/gemma-media-study/releases/latest)
+[![Built with Tauri](https://img.shields.io/badge/built%20with-Tauri%20%2B%20React-24C8DB?logo=tauri)](https://tauri.app)
+[![Powered by Ollama](https://img.shields.io/badge/LLM-Gemma%204%20on%20Ollama-000000?logo=ollama)](https://ollama.com)
+
 > Turn any YouTube link, local video, or audio file into a study pack — verbatim
 > subtitles, an AI summary, a frame-by-frame visual breakdown, and a built-in chat
 > tutor — all running **100% locally** on [Ollama](https://ollama.com) + Gemma 4.
+
+**Keywords:** local AI video study tool · YouTube transcription · Whisper subtitles ·
+Gemma 4 · Ollama desktop app · offline LLM · Tauri + React + Python · Windows installer.
 
 A [Tauri](https://tauri.app) desktop app (Rust + React) with a Python media pipeline.
 Nothing leaves your machine: the model runs in Ollama, transcription runs in
