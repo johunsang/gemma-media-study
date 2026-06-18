@@ -1,0 +1,11 @@
+# Gemma 4 study runtime (Ollama backend).
+#
+# The model itself runs in Ollama (gemma4:12b), so no torch / transformers /
+# bitsandbytes are needed here. This venv only handles media download and
+# frame extraction; analysis/translation go over HTTP to the Ollama server.
+
+yt-dlp          # YouTube download (uses already-merged streams, no ffmpeg merge)
+av              # frame + audio extraction from video (bundles libav, no ffmpeg CLI)
+pillow          # save extracted frames as JPEG
+requests        # talk to the local Ollama /api/chat endpoint
+faster-whisper  # accurate speech-to-text for media without subtitles (CTranslate2, no torch)

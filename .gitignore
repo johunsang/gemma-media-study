@@ -1,0 +1,18 @@
+node_modules/
+dist/
+target/
+src-tauri/target/
+__pycache__/
+.venv/
+downloads/
+*.pyc
+
+# Dev / build logs
+*.log
+tauri-dev*.log
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
