@@ -1,6 +1,6 @@
 [package]
 name = "youtube-gemma-analyzer"
-version = "0.1.0"
+version = "0.1.1"
 description = "Download YouTube videos and analyze them with Gemma 4"
 authors = ["local"]
 edition = "2021"
